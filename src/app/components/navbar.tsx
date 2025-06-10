@@ -8,9 +8,6 @@ export default function Navbar() {
   const links = [
     { href: '/novosti-kolledzha', label: 'Новости колледжа' },
     { href: '/o-kolledzhe', label: 'О колледже' },
-    { href: '/specialnosti-kolledzha', label: 'Специальности колледжа' },
-    { href: '/trudoustroystvo-i-karera', label: 'Трудоустройство и карьера' },
-    { href: '/vizitka-kolledzha', label: 'Визитка колледжа' },
     { href: '/korporativnoe-upravlenie', label: 'Корпоративное управление' },
     { href: '/obrazovatelnaya-deyatelnost', label: 'Образовательная деятельность' },
     { href: '/proizvodstvennaya-deyatelnost', label: 'Производственная деятельность' },

@@ -33,7 +33,7 @@ export default function Page() {
         </article>
       </section>
       <iframe
-        src="https://yandex.kz/map-widget/v1/?indoorLevel=1&ll=80.226998%2C50.394266&tab=overview&z=18.4"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1069.4073681679722!2d80.2268335812315!3d50.39463608460264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f2652445e21b45%3A0x94e2ddf0c72ae3fc!2z0JLRi9GB0YjQuNC5INC60L7Qu9C70LXQtNC2IElUINC4INC90L7QstGL0YUg0YLQtdGF0L3QvtC70L7Qs9C40Lk!5e0!3m2!1sru!2skz!4v1749104333476!5m2!1sru!2skz"
         width="100%"
         height="300"
         frameBorder="0"
@@ -41,7 +41,9 @@ export default function Page() {
         className="mt-2 rounded-lg shadow-md"
       ></iframe>
       <section>
-        <h2 className="text-2xl font-bold mt-4">Новости колледжа</h2>
+        <a href="/novosti-kolledzha">
+          <h2 className="text-2xl font-bold mt-4">Новости колледжа</h2>
+        </a>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
           {news.map((item) => (
             <a href={'novosti-kolledzha/' + item.id} key={item.id} className="p-4 border rounded-lg shadow-sm hover:shadow-md transition-shadow">
